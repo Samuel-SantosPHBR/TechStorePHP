@@ -1,0 +1,103 @@
+body{
+	
+
+}
+
+legend{
+	font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+
+
+
+div{
+	width: 30%;
+	margin: auto;
+	margin-left: 35%;
+	margin-top: 10%;
+    padding: 20px 12px 10px 20px;
+    font: 13px Arial, Helvetica, sans-serif;
+    
+}
+
+fieldset{
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	box-shadow: 0px 10px 12px 3px rgba(0,0,0,0.37);
+}
+
+label{
+    display: block;
+    margin: 0px 0px 15px 0px;
+}
+label > span{
+    width: 100px;
+    font-weight: bold;
+    float: left;
+    padding-top: 8px;
+    padding-right: 5px;
+}
+
+input{
+	border-radius: 6px;
+}
+
+input[type=email], input[type=password], input[type=text],input[type=date]{
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px 1px 4px #EBEBEB;
+    -moz-box-shadow: 1px 1px 4px #EBEBEB;
+    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 7px;
+    outline: none;
+    width: 100%;
+}
+
+
+
+input[type=submit]{
+	border: none;
+    padding: 8px 20px 8px 20px;
+    background: green;
+    color: #fff;
+    box-shadow: 1px 1px 4px #DADADA;
+    -moz-box-shadow: 1px 1px 4px #DADADA;
+    -webkit-box-shadow: 1px 1px 4px #DADADA;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    margin-bottom: 10%;
+    
+}
+
+.cadastrar{
+	width: 100%;
+}
+
+.Tcadas{
+	margin-top: -1%;
+}
+
+a{
+	border: none;
+    padding: 8px 20px 8px 20px;
+    background: orange;
+    color: #fff;
+    box-shadow: 1px 1px 4px #DADADA;
+    -moz-box-shadow: 1px 1px 4px #DADADA;
+    -webkit-box-shadow: 1px 1px 4px #DADADA;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    text-decoration: none;
+   
+}
